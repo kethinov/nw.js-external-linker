@@ -2,15 +2,14 @@
   var gui = require('nw.gui');
 
   function externalLinker(e) {
-    var link = e.target, rel, target, href = link.href;
-    
-    if (!link.getAttribute) {
+    var link = e.target, rel, target = link.target, href = link.href;
+
+    if (!link || !link.getAttribute || !href) {
       return;
     }
-    
+
     rel = link.getAttribute('rel');
-    target = link.getAttribute('target');
-    
+
     if (target === '_self') {
       return;
     }
