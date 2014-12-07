@@ -21,7 +21,7 @@ Include the file in your node-webkit app:
 <script>
   global.window = window; // needed by externally linked scripts
 </script>
-<script src='bower_components/node-webkit-external-linker/node-webkit-external-linker.js'></script>
+<script src='bower_components/node-webkit-external-linker.js/node-webkit-external-linker.js'></script>
 ```
 
 Usage
