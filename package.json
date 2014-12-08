@@ -1,6 +1,6 @@
 {
   "name": "node-webkit-external-linker.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Forces all external links to open in regular browser windows in node-webkit apps.",
   "main": "node-webkit-external-linker.js",
   "repository": {
