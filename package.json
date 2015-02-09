@@ -1,21 +1,21 @@
 {
-  "name": "node-webkit-external-linker.js",
+  "name": "nw.js-external-linker.js",
   "version": "1.0.2",
-  "description": "Forces all external links to open in regular browser windows in node-webkit apps.",
-  "main": "node-webkit-external-linker.js",
+  "description": "Forces all external links to open in regular browser windows in nw.js apps.",
+  "main": "nw.js-external-linker.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kethinov/node-webkit-external-linker.js.git"
+    "url": "https://github.com/kethinov/nw.js-external-linker.js.git"
   },
   "author": "Eric Newport <kethinov@gmail.com> (http://kethinov.com/)",
   "license": "Creative Commons Attribution 4.0 International License",
   "bugs": {
-    "url": "https://github.com/kethinov/node-webkit-external-linker.js/issues"
+    "url": "https://github.com/kethinov/nw.js-external-linker.js/issues"
   },
-  "homepage": "https://github.com/kethinov/node-webkit-external-linker.js.js",
+  "homepage": "https://github.com/kethinov/nw.js-external-linker.js.js",
   "readmeFilename": "README.md",
   "keywords": [
-    "node-webkit",
+    "nw.js",
     "external",
     "links"
   ]

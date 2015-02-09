@@ -1,17 +1,17 @@
 {
-  "name": "node-webkit-external-linker.js",
-  "description": "Forces all external links to open in regular browser windows in node-webkit apps.",
+  "name": "nw.js-external-linker.js",
+  "description": "Forces all external links to open in regular browser windows in nw.js apps.",
   "author": "Eric Newport <kethinov@gmail.com>",
   "version": "1.0.2",
   "homepage": "https://github.com/kethinov/page.js-body-parser.js",
   "license": "Creative Commons Attribution 4.0 International License",
-  "main": "node-webkit-external-linker.js",
+  "main": "nw.js-external-linker.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/kethinov/node-webkit-external-linker.js.git"
+    "url": "git://github.com/kethinov/nw.js-external-linker.js.git"
   },
   "keywords": [
-    "node-webkit",
+    "nw.js",
     "external",
     "links"
   ],
