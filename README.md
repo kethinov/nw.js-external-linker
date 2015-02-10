@@ -1,7 +1,7 @@
-node-webkit-external-linker [![Gittip](http://img.shields.io/gittip/kethinov.png)](https://www.gittip.com/kethinov/)
+nw.js-external-linker [![Gittip](http://img.shields.io/gittip/kethinov.png)](https://www.gittip.com/kethinov/)
 ===
 
-A plugin for [node-webkit](https://github.com/rogerwang/node-webkit) which forces all external links to open in the user's default browser outside your app.
+A plugin for [nw.js](https://github.com/nwjs/nw.js) which forces all external links to open in the user's default browser outside your app.
 
 Installation
 ===
@@ -9,19 +9,19 @@ Installation
 Either download the file from here or use [bower](http://bower.io/):
 
 ```
-bower install node-webkit-external-linker.js
+bower install nw.js-external-linker.js
 ```
 
 Initialization
 ===
 
-Include the file in your node-webkit app:
+Include the file in your nw.js app:
 
 ```html
 <script>
   global.window = window; // needed by externally linked scripts
 </script>
-<script src='bower_components/node-webkit-external-linker.js/node-webkit-external-linker.js'></script>
+<script src='bower_components/nw.js-external-linker.js/nw.js-external-linker.js'></script>
 ```
 
 Usage
