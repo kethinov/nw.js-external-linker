@@ -1,5 +1,11 @@
 ;(function() {
-  var gui = require('nw.gui');
+  var gui;
+
+  if (typeof process !== 'undefined' && typeof require !== 'undefined') {
+    gui = require('nw.gui');
+    window.removeEventListener('click', externalLinker, false);
+    window.addEventListener('click', externalLinker, false);
+  }
 
   function externalLinker(e) {
     var link = e.target,
@@ -21,7 +27,4 @@
       gui.Shell.openExternal(href);
     }
   }
-
-  window.removeEventListener('click', externalLinker, false);
-  window.addEventListener('click', externalLinker, false);
 })();

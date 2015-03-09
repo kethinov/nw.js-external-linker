@@ -1,6 +1,6 @@
 {
   "name": "nw.js-external-linker.js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Forces all external links to open in regular browser windows in nw.js apps.",
   "main": "nw.js-external-linker.js",
   "repository": {
