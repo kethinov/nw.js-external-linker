@@ -2,7 +2,6 @@
   "name": "nw.js-external-linker.js",
   "description": "Forces all external links to open in regular browser windows in nw.js apps.",
   "author": "Eric Newport <kethinov@gmail.com>",
-  "version": "1.0.4",
   "homepage": "https://github.com/kethinov/nw.js-external-linker.js",
   "license": "Creative Commons Attribution 4.0 International License",
   "main": "nw.js-external-linker.js",
