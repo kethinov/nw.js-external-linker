@@ -1,4 +1,4 @@
-nw.js-external-linker [![Gittip](http://img.shields.io/gittip/kethinov.png)](https://www.gittip.com/kethinov/)
+nw.js-external-linker
 ===
 
 A plugin for [nw.js](https://github.com/nwjs/nw.js) which forces all external links to open in the user's default browser outside your app.
