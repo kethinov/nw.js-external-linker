@@ -3,6 +3,8 @@ nw.js-external-linker
 
 A plugin for [nw.js](https://github.com/nwjs/nw.js) which forces all external links to open in the user's default browser outside your app.
 
+**Warning: No longer being actively maintained! May no longer function as intended!**
+
 Installation
 ===
 
